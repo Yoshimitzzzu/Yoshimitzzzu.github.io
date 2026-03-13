@@ -1,0 +1,126 @@
+.title {
+    background: #2a619b;
+    background: linear-gradient(170deg, rgba(42, 97, 155, 1), rgba(87, 199, 133, 1) , rgba(42, 97, 155, 1) );
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.menu{
+    font-size: 40px;
+    background: #4e86c2;
+    border-radius: 5px;
+    margin: 7px 0;
+    box-shadow: 3px 3px gray;
+}
+
+.buttons{
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #57C785; 
+    border-bottom: 4px groove rgba(180, 180, 180, 0.7);
+    border-right: 4px groove rgba(180, 180, 180, 0.7);
+}
+
+.leftblock{
+    font-size: 27px;
+    border-radius: 10px;
+    float: left;
+    background-color: #57C785;
+    width: 200px;
+}
+
+.lefttitle{
+    display: block;
+    text-align: center;
+    background-color: rgb(103, 173, 235);
+    border-radius: 10px;
+}
+
+.lefttxt{
+    box-shadow: 5px 4px gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.rightblock{
+    font-size: 27px;
+    border-radius: 10px;
+    float: right;
+    background-color: #57C785;
+    width: 300px;
+}
+
+.rightinfo{
+    box-shadow: 5px 4px gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.righttitle{
+    display: block;
+    text-align: center;
+    background-color: rgb(103, 173, 235);
+    border-radius: 10px;
+}
+
+.rightservices{
+    box-shadow: 5px 4px gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+}
+
+.centralblock{
+    width: calc(100% - 570px);
+    float: left;
+    font-size: 27px;
+    border-radius: 10px;
+    background-color: #57C785;
+    margin: 0 15px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.layers{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 6px;
+}
+
+.logo{
+    overflow: hidden;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.link{
+    position: absolute;
+    bottom: -40px;
+    height: 40px;
+    width: 100%;
+    background: rgba(255,255,255,0.45);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: bottom 0.3s;
+}
+
+.layers:hover .link{
+    bottom: 0;
+}
